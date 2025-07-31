@@ -1,0 +1,106 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(to bottom right, #fdfbfb, #ebedee);
+  padding-bottom: 10px;
+  font-family: "Press Start 2P", cursive;
+}
+
+h1 {
+  font-size: 3rem;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+}
+
+.btn {
+  width: 200px;
+  height: 200px;
+  margin: 20px;
+  border-radius: 20%;
+  border: 7px solid black;
+}
+.green {
+  background-color: #63aac0;
+}
+
+.red {
+  background-color: #d95980;
+}
+
+.yellow {
+  background-color: #f99b45;
+}
+
+.blue {
+  background-color: #819ff9;
+}
+
+.flash {
+  background-color: green;
+  opacity: 0.7;
+}
+
+@media (max-width: 800px) {
+  .btn {
+    width: 150px;
+    height: 150px;
+  }
+}
+
+@media (max-width: 450px) {
+  .btn {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+.game-footer {
+  margin-top: auto;
+  width: 100%;
+  padding: 20px;
+  font-size: 1rem;
+  color: #333;
+  background-color: #f1f1f1;
+  border-top: 1px solid #ccc;
+  text-align: center;
+}
+
+.game-footer p {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #6c757d;
+  text-align: center;
+}
+
+h2#score {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  color: #333;
+  margin: 10px 0;
+}
+
+#restart-msg {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  color: #444;
+  margin: 10px 0;
+}
+
+.btn {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  transition: transform 0.1s ease;
+}
+
+.btn:active {
+  transform: scale(0.98);
+}
+
+.game-over {
+  background-color: red !important ;
+}

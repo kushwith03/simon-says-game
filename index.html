@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simon Says Game</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <h1>Press any key to start or tap outside the box</h1>
+    <h2 id="high-score"></h2>
+    <h2 id="score"></h2>
+    <div class="container">
+      <div class="line-one">
+        <div type="button" class="btn green" id="green"></div>
+        <div type="button" class="btn red" id="red"></div>
+      </div>
+      <div class="line-2">
+        <div type="button" class="btn yellow" id="yellow"></div>
+        <div type="button" class="btn blue" id="blue"></div>
+      </div>
+    </div>
+    <h2 id="restart-msg"></h2>
+
+    <hr />
+    <footer class="game-footer">
+      <p>
+        Made with ❤️ by <strong>kushwith_03</strong><br />
+        🔹 Press any key to start the game.<br />
+        🔹 Watch the color sequence carefully.<br />
+        🔹 Click the buttons in the same order to level up.<br />
+        🔹 A wrong click ends the game. Try to beat your highest level!
+      </p>
+    </footer>
+    <script src="./app.js"></script>
+  </body>
+</html>
